@@ -1,4 +1,5 @@
 module.exports = {
+  projectId: '21svyv',
 
   //change the viewport
   viewportHeight: 800, //660
@@ -30,13 +31,13 @@ module.exports = {
 
   e2e: {
     //baseUrl: 'https://rahulshettyacademy.com/AutomationPractice',
-    baseUrl: cypress.env('url'),
+    
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     supportFile: 'cypress/support/e2e.{js,jsx,ts,tsx}',
     
 
     // "env":{
-    //   "url":'https://rahulshettyacademy.com/AutomationPractice/'
+    //   //"url":'https://rahulshettyacademy.com/AutomationPractice/'
     // },
 
     setupNodeEvents(on, config) {
