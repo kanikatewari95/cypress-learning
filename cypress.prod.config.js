@@ -29,8 +29,8 @@ module.exports = {
   
 
   e2e: {
-    //baseUrl: 'https://rahulshettyacademy.com/AutomationPractice',
-    baseUrl: cypress.env('url'),
+    baseUrl: "https://portal.kentik.com/",
+    
     specPattern: 'cypress/e2e/**/*.cy.{js,jsx,ts,tsx}',
     supportFile: 'cypress/support/e2e.{js,jsx,ts,tsx}',
     
@@ -44,3 +44,5 @@ module.exports = {
     },
   },
 };
+
+

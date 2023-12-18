@@ -26,6 +26,8 @@
 
 /// <reference types="Cypress"/>
 
+//import '@testing-library/cypress/add-commands'
+
 //const cypress = require("cypress");
 
 //custom command for login into OrganeHrm

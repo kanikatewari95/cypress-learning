@@ -17,6 +17,8 @@ describe("Selecting Locators", () =>
 
     cy.get('input[name="password"]').click()
     cy.get('input[name="password"]').clear().type("admin123")
+
+    //cy.findAllByRole('button', {name: / Login /i}).click() //not working now
     cy.get('button.orangehrm-login-button').click()
     cy.url().should('contain', 'dashboard')
     cy.get('a[href*="/viewAdminModule"]').click()
